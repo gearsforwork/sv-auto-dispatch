@@ -96,10 +96,10 @@
 		</class>
 		<class id="lnkCustomerContractToService" _created_in="itop-service-mgmt" _delta="must_exist">
 			<fields>
-				<field id="provider_id" xsi:type="AttributeExternalField" _delta="define">
+				<!--<field id="provider_id" xsi:type="AttributeExternalField" _delta="define">
 					<extkey_attcode>customercontract_id</extkey_attcode>
 					<target_attcode>provider_id</target_attcode>
-				</field>
+				</field>-->
 				<field id="dispatch_id" xsi:type="AttributeExternalKey" _delta="define">
 					<sql>dispatch_id</sql>
 					<target_class>DispatchRule</target_class>
